@@ -66,7 +66,7 @@ const HeroSection1 = () => {
     <div className='hero-section-wrapper'>
       <div className='hero-text'>
         <h1>Here's how it works</h1>
-        <p>Start A Free Trail  </p>
+        <p>Start A Free Trail  <i class="icon ion-arrow-right-c"></i></p>
       </div>
 
       <div className="hero-section1">
