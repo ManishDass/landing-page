@@ -35,6 +35,8 @@
     text-decoration: none; /* Removed underlines from navlinks */
     color: #121D2F;
     font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
   }
   
   .nav-links a:hover {
@@ -48,9 +50,11 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #F1F6FF;
     min-width: 120px;
     z-index: 1;
+    color: white;
+    border-radius: 10px;
   }
   
   .dropdown-content a {
@@ -62,6 +66,8 @@
   
   .dropdown-content a:hover {
     background-color: #2878FF;
+    color: white;
+    border-radius: 10px;
   }
   
   .dropdown:hover .dropdown-content {

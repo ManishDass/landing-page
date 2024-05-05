@@ -27,7 +27,8 @@
     color: #2878FF;
     padding: 20px 40px;
     font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
   }
   
   .step-button.active {
@@ -68,7 +69,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 100px;
+    font-size: 1.5rem;
+  }
+
+  .hero-text h1 {
+    font-family: 'Oswald';
+    font-weight: 500;
   }
 
 

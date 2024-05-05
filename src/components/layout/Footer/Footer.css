@@ -20,6 +20,7 @@
 .column-heading {
   font-size: 1.2rem;
   margin-bottom: 15px; /* Add spacing below headings */
+  text-decoration: underline;
 }
 
 .footer-links {
@@ -34,6 +35,8 @@
 .footer-links a {
   text-decoration: none;
   color: white !important;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
 }
 
 .brand-description {
