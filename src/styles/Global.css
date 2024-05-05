@@ -1,0 +1,7 @@
+/* Custom Fonts */
+@import './fonts.css'; 
+
+:root {
+    --background-color: white;
+  }
+

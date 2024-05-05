@@ -1,0 +1,75 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left-buttons,
+  .right-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+  }
+  
+  .video-container {
+    margin: 0 20px;
+  }
+  
+  .step-button {
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #F1F6FF;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #2878FF;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .step-button.active {
+    background-color: #2878FF;
+    color: white;
+  }
+  
+  video {
+    max-width: 100%;
+  }
+  
+
+  .video-container {
+    width: 40%;
+  }
+
+  .video-container video {
+    border-radius: 20px; /* Adjust the value as needed */
+  }
+
+  .hero-section-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Set minimum height to fill the viewport */
+  }
+  
+  .hero-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Allow the section to grow to fill available space */
+  }
+  
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+
+  

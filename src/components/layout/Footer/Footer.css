@@ -1,0 +1,74 @@
+.footer-wrapper {
+  height: 380px;
+  background-color: #001333; /* Dark background color */
+  color: white;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px; /* Add some padding for spacing */
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column-heading {
+  font-size: 1.2rem;
+  margin-bottom: 15px; /* Add spacing below headings */
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.brand-description {
+  font-style: italic;
+}
+
+.social-media-icons {
+  margin-top: 10px;
+}
+
+.social-media-link {
+  margin-right: 10px;
+  color: white; /* White icon color */
+}
+
+/* Hover effect for links */
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.icon {
+  margin: 0 5px;
+}
+
+.footer-logo {
+  margin-right: 10px;
+  font-family: 'Baloo Bhaijaan', sans-serif;
+  color: white;
+  font-size: 2.1rem;
+}

@@ -1,0 +1,45 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid red; */
+    height: 300px;
+    padding: 200px 0;
+}
+
+.dashboard-buttons-wrapper {
+    /* border: 1px solid orange;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.dashboard-buttons-wrapper button {
+    font-size: 1.2rem;
+    padding: 30px 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+}
+
+.dashboard-image-wrapper {
+    /* border: 1px solid orange;  */
+}
+
+/* select all child of this parent */
+/* .dashboard-wrapper * { 
+    flex-grow: 1;
+} */
+
+.dashboard-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.banner-image {
+    width: 350px;
+    height: auto;
+}
+

@@ -1,0 +1,96 @@
+/* :root {
+    --background-color: #191E29;
+  } */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+    font-family: 'Baloo Bhaijaan', sans-serif;
+    color: #121D2F;
+    font-size: 2.1rem;
+  }
+   
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Removed underlines from navlinks */
+    color: #121D2F;
+    font-size: 1.2rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #2878FF;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .user-actions button {
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+    color: #2878FF;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #F1F6FF;
+    padding: 15px 40px;
+    font-size: 1rem;
+  }
+
+  .user-actions button:hover {
+    margin-left: 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #2878FF;
+    padding: 15px 40px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }

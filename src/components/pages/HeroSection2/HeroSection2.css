@@ -1,0 +1,101 @@
+.hero-section-two-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.hero-section-sub-wrapper {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    /* Add some space between tabs and video */
+    width: 96%;
+    height: 40%;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.remote-button {
+    flex-grow: 1;
+    border: none !important;
+}
+
+.remote-button:nth-child(1) {
+    border-top-left-radius: 5px;
+    /* border: none; */
+}
+
+.remote-button {
+    padding: 25px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.remote-button:hover {
+    background-color: #f0f0f0;
+
+}
+
+.remote-button:nth-child(1):hover, .remote-button.current:nth-child(1) {
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+.remote-button:nth-child(4):hover, .remote-button.current:nth-child(4)  {
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.remote-button.current {
+    background-color: #2878FF;
+    color: white;
+    border-color: #2878FF;
+}
+
+
+.video-container-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    padding-bottom: 2rem;
+}
+
+.heroSection-two-video {
+    border-radius: 20px;
+    /* Adjust the value as needed */
+    max-width: 60%;
+}
+
+.get-started {
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #F1F6FF;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #2878FF;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}

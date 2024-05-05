@@ -1,0 +1,16 @@
+/* fonts.css */
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto'), url(../../public/fonts/Roboto-Light.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Baloo Bhaijaan';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Baloo Bhaijaan'), local('Baloo Bhaijaan'), url(../../public/fonts/BalooBhaijaan-Regular.ttf) format('truetype');
+  }
+  

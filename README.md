@@ -1,3 +1,46 @@
+File Structure
+src/
+│
+├── components/
+│   ├── common/                 # Reusable components
+│   │   ├── Button/
+│   │   │   ├── Button.js
+│   │   │   └── Button.css
+│   │   ├── Input/
+│   │   │   ├── Input.js
+│   │   │   └── Input.css
+│   │   └── ...
+│   │
+│   ├── layout/                 # Components related to layout structure
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.js
+│   │   │   └── Navbar.css
+│   │   ├── Footer/
+│   │   │   ├── Footer.js
+│   │   │   └── Footer.css
+│   │   └── ...
+│   │
+│   ├── pages/                  # Components representing individual pages
+│   │   ├── Dashboard/
+│   │   │   ├── Dashboard.js
+│   │   │   └── Dashboard.css
+│   │   ├── HomePage/
+│   │   │   ├── HomePage.js
+│   │   │   └── HomePage.css
+│   │   └── ...
+│   │
+│   └── ui/                     # UI components specific to this project
+│       ├── HeroSection1/
+│       │   ├── HeroSection1.js
+│       │   └── HeroSection1.css
+│       ├── HeroSection2/
+│       │   ├── HeroSection2.js
+│       │   └── HeroSection2.css
+│       └── ...
+│
+└── App.js
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
