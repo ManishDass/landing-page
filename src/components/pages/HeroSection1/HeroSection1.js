@@ -12,16 +12,16 @@ const HeroSection1 = () => {
       // Play the next video
       switch (currentStep) {
         case 1:
-          videoRef.current.src = '/videos/Clip2.mp4';
+          videoRef.current.src = '/videos/Clip1.mp4';
           break;
         case 2:
-          videoRef.current.src = '/videos/Clip3.mp4';
+          videoRef.current.src = '/videos/Clip2.mp4';
           break;
         case 3:
-          videoRef.current.src = '/videos/Clip4.mp4';
+          videoRef.current.src = '/videos/Clip3.mp4';
           break;
         case 4:
-          videoRef.current.src = '/videos/Clip1.mp4';
+          videoRef.current.src = '/videos/Clip4.mp4';
           break;
         default:
           break;
@@ -66,7 +66,7 @@ const HeroSection1 = () => {
     <div className='hero-section-wrapper'>
       <div className='hero-text'>
         <h1>Here's how it works</h1>
-        <p>Start A Free Trail  <i class="icon ion-arrow-right-c"></i></p>
+        <p>Start A Free Trail  <i class="icon ion-arrow-right-c"></i>`</p>
       </div>
 
       <div className="hero-section1">

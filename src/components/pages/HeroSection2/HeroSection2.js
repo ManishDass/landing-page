@@ -12,16 +12,16 @@ const HeroSection2 = () => {
       // Play the next video
       switch (currentStep) {
         case 1:
-          videoRef.current.src = '/videos/Clip2.mp4';
+          videoRef.current.src = '/videos/Clip1.mp4';
           break;
         case 2:
-          videoRef.current.src = '/videos/Clip3.mp4';
+          videoRef.current.src = '/videos/Clip2.mp4';
           break;
         case 3:
-          videoRef.current.src = '/videos/Clip4.mp4';
+          videoRef.current.src = '/videos/Clip3.mp4';
           break;
         case 4:
-          videoRef.current.src = '/videos/Clip1.mp4';
+          videoRef.current.src = '/videos/Clip4.mp4';
           break;
         default:
           break;
@@ -66,10 +66,10 @@ const HeroSection2 = () => {
     <div className="hero-section-two-wrapper">
       <div className='hero-section-sub-wrapper'>
       <div className="tab-buttons">
-        <a className={`remote-button ${currentStep === 1 ? 'current' : ''}`} data-tab="vid-1" onClick={() => handleStepChange(1)}>Tab 1</a>
-        <a className={`remote-button ${currentStep === 2 ? 'current' : ''}`} data-tab="vid-2" onClick={() => handleStepChange(2)}>Tab 2</a>
-        <a className={`remote-button ${currentStep === 3 ? 'current' : ''}`} data-tab="vid-3" onClick={() => handleStepChange(3)}>Tab 3 </a>
-        <a className={`remote-button ${currentStep === 4 ? 'current' : ''}`} data-tab="vid-4" onClick={() => handleStepChange(4)}>Tab 4</a>
+        <a className={`remote-button ${currentStep === 1 ? 'current' : ''}`}  onClick={() => handleStepChange(1)}>Tab 1</a>
+        <a className={`remote-button ${currentStep === 2 ? 'current' : ''}`}  onClick={() => handleStepChange(2)}>Tab 2</a>
+        <a className={`remote-button ${currentStep === 3 ? 'current' : ''}`}  onClick={() => handleStepChange(3)}>Tab 3 </a>
+        <a className={`remote-button ${currentStep === 4 ? 'current' : ''}`}  onClick={() => handleStepChange(4)}>Tab 4</a>
       </div>
 
       <div className="video-container-tabs">
